@@ -352,10 +352,14 @@
 			<CommonPicture>ИТК_Форматировать</CommonPicture>
 			<CommonTemplate>ИТК_РедакторКодаMonaco</CommonTemplate>
 			<CommonModule>инт_КоннекторHTTP</CommonModule>
+			<CommonModule>инт_КоннекторПодсистемыИнтеграции</CommonModule>
 			<CommonModule>инт_ОтправкаИсходящихСообщений</CommonModule>
+			<CommonModule>инт_ОтправкаИсходящихСообщенийПовтИсп</CommonModule>
+			<CommonModule>инт_ОтправкаИсходящихСообщенийСлужебный</CommonModule>
 			<CommonModule>инт_СтатусыИсходящихСообщенийПовтИсп</CommonModule>
 			<CommonModule>инт_ФормированиеИсходящихСообщений</CommonModule>
 			<CommonModule>инт_ФормированиеИсходящихСообщенийПовтИсп</CommonModule>
+			<CommonModule>инт_ФормированиеИсходящихСообщенийСлужебный</CommonModule>
 			<CommonModule>ИТК_БСП</CommonModule>
 			<CommonModule>ИТК_БСПВызовСервера</CommonModule>
 			<CommonModule>ИТК_БСПКлиент</CommonModule>
@@ -433,11 +437,15 @@
 			<CommonModule>ИТК_ФормаВызовСервера</CommonModule>
 			<CommonModule>ИТК_ФормаКлиент</CommonModule>
 			<CommonModule>ИТК_ФормаКлиентСервер</CommonModule>
+			<ScheduledJob>инт_МенеджерПотоковРассылкиСообщений</ScheduledJob>
 			<ScheduledJob>инт_МенеджерПотоковФормированияИсходящихСообщений</ScheduledJob>
-			<ScheduledJob>инт_РассылкаСообщений</ScheduledJob>
 			<DefinedType>инт_ИсходныеДанные</DefinedType>
+			<Constant>инт_КоличествоПотоковОтправкиСообщений</Constant>
 			<Constant>инт_КоличествоПотоковФормированияСообщений</Constant>
+			<Constant>инт_РазделятьПотокиОтправкиПоТипамПодписчиков</Constant>
+			<Constant>инт_РазмерПачкиОтправкиСообщений</Constant>
 			<Constant>инт_РазмерПачкиФормированияСообщений</Constant>
+			<CommonForm>инт_НастройкиОбщихПараметровИнтеграций</CommonForm>
 			<CommonForm>ИТК_Настройки</CommonForm>
 			<Catalog>инт_Подписчики</Catalog>
 			<Catalog>инт_ПотокиДанных</Catalog>
@@ -445,11 +453,16 @@
 			<Enum>инт_НаправлениеПотокаДанных</Enum>
 			<Enum>инт_СпособыПередачиПараметровПоHTTP</Enum>
 			<Enum>инт_СтатусыИсходящихСообщений</Enum>
+			<Enum>инт_СтатусыРассылкиИсходящихСообщений</Enum>
 			<Enum>инт_ТипыПодписчиков</Enum>
 			<InformationRegister>инт_ИсторияСтатусовИсходящихСообщений</InformationRegister>
+			<InformationRegister>инт_ИсторияСтатусовРассылкиСообщений</InformationRegister>
+			<InformationRegister>инт_МенеджерПотоковОтправкиСообщений</InformationRegister>
 			<InformationRegister>инт_МенеджерПотоковФормированияСообщений</InformationRegister>
 			<InformationRegister>инт_ОчередьИсходящихСообщений</InformationRegister>
+			<InformationRegister>инт_ОчередьОтправкиИсходящихСообщений</InformationRegister>
 			<InformationRegister>инт_ТекущийСтатусИсходящихСообщений</InformationRegister>
+			<InformationRegister>инт_ТекущийСтатусРассылкиСообщений</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
