@@ -151,11 +151,11 @@
 			</Dimension>
 			<Dimension uuid="13c8544e-d385-4e2a-b9e1-1c37122a1672">
 				<Properties>
-					<Name>ИдентификторСообщения</Name>
+					<Name>ИдентификаторСообщения</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Идентификтор сообщения</v8:content>
+							<v8:content>Идентификатор сообщения</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

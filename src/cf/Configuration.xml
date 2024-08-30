@@ -353,6 +353,7 @@
 			<CommonTemplate>ИТКВ_РедакторКодаMonaco</CommonTemplate>
 			<CommonModule>инт_КоннекторHTTP</CommonModule>
 			<CommonModule>инт_КоннекторПодсистемыИнтеграции</CommonModule>
+			<CommonModule>инт_ОбработкаВходящихПотоков</CommonModule>
 			<CommonModule>инт_ОтправкаИсходящихСообщений</CommonModule>
 			<CommonModule>инт_ОтправкаИсходящихСообщенийПовтИсп</CommonModule>
 			<CommonModule>инт_ОтправкаИсходящихСообщенийСлужебный</CommonModule>
@@ -437,6 +438,7 @@
 			<CommonModule>ИТКВ_ФормаВызовСервера</CommonModule>
 			<CommonModule>ИТКВ_ФормаКлиент</CommonModule>
 			<CommonModule>ИТКВ_ФормаКлиентСервер</CommonModule>
+			<HTTPService>ПодсистемаИнтеграции</HTTPService>
 			<ScheduledJob>инт_МенеджерПотоковРассылкиСообщений</ScheduledJob>
 			<ScheduledJob>инт_МенеджерПотоковФормированияИсходящихСообщений</ScheduledJob>
 			<DefinedType>инт_ИсходныеДанные</DefinedType>
